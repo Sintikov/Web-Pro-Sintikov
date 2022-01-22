@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans:ital,wght@1,500&display=swap');
+body{
+	background-image: url('img/bg.jpg');
+  font-family: "Dongle";
+}
+.text-white{
+  font-size: 60px;
+
+}
+.main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.wrapper{
+	padding: 18px 11px 18px 11px;
+	color: #fff;
+  border: 5px solid #de9e90;
+	background-color: #000000;
+	transition: 0.3s;
+}
+.wrapper:hover{
+	border: 2px solid #a01919;
+	box-shadow: 0px 0px 20px #a01919;
+	-webkit-transform: scale(1.025);
+	-ms-transform: scale(1.025);
+	transform: scale(1.025);
+	transition: 0.3s;
+}
